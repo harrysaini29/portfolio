@@ -35,17 +35,17 @@ const Footer = () => {
           quaerat.
         </Slogan>
       </CompanyContainer>
-      {/* <SocialIconsContainer> */}
-      <SocialIcons href="https://www.github.com">
-        <AiFillGithub size="3rem"></AiFillGithub>
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com">
-        <AiFillLinkedin size="3rem"></AiFillLinkedin>
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com">
-        <AiFillInstagram size="3rem"></AiFillInstagram>
-      </SocialIcons>
-      {/* </SocialIconsContainer> */}
+      <SocialIconsContainer>
+        <SocialIcons href="https://www.github.com">
+          <AiFillGithub size="3rem"></AiFillGithub>
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com">
+          <AiFillLinkedin size="3rem"></AiFillLinkedin>
+        </SocialIcons>
+        <SocialIcons href="https://www.instagram.com">
+          <AiFillInstagram size="3rem"></AiFillInstagram>
+        </SocialIcons>
+      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

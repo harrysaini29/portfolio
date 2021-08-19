@@ -15,19 +15,19 @@ const Hero = (props) => (
         Hi, I am <br />
         Harvinder
       </SectionTitle>
-      <SectionText>
+      {/* <SectionText>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
         laboriosam quos porro molestias dolores facere saepe in, consectetur
         temporibus culpa.
-      </SectionText>
-      <Button
-        onClick={() => {
-          return (window.location =
-            "https://www.linkedin.com/in/harvinder-singh-29081997/");
-        }}
+      </SectionText> */}
+      <a
+        href="https://www.linkedin.com/in/harvinder-singh-29081997/"
+        target="_blank"
+        rel="noopener noreferrer"
+        download
       >
-        Learn More
-      </Button>
+        <Button>Learn More</Button>
+      </a>
     </LeftSection>
   </Section>
 );

@@ -22,10 +22,12 @@ import { projects } from "../../constants/constants";
 import { Div1 } from "../Header/HeaderStyles";
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider></SectionDivider>
-    <SectionTitle main>Projects</SectionTitle>
-    <GridContainer>
+    <SectionTitle nopadding main>
+      Projects
+    </SectionTitle>
+    <GridContainer nopadding>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => {
           return (

@@ -17,26 +17,34 @@ import {
 
 const Technologies = () => (
   <Section id="tech">
+    <br />
     <SectionDivider></SectionDivider>
     <br />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
+    <SectionTitle>Technologies/ Skills</SectionTitle>
+    {/* <SectionText>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officiis
       veniam aliquid cupiditate, tenetur harum quasi at quisquam ipsa nostrum.
-    </SectionText>
+    </SectionText> */}
     <List>
       <ListItem>
         <DiReact size="3rem"></DiReact>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React and SAP UI5</ListParagraph>
+          <ListParagraph>
+            <b>JavaScript ES6 -</b> React w/ hooks, Redux, jQuery, TypeScript,
+            SAP UI5 and Fiori <br />
+            <b>CSS3</b> - Sass/SCSS
+            <br /> <b>HTML5</b>
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size="3rem"></DiFirebase>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>SAP ABAP and Databases</ListParagraph>
+          <ListParagraph>
+            Python 3, Rest API, GraphQL, SAP ABAP, HANA DB, SQL
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

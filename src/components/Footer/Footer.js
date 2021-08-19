@@ -16,11 +16,11 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-111">111-111-111</LinkItem>
+          <LinkItem href="tel:111-111-111">+91-735 583 7566</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -30,19 +30,31 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <CompanyContainer>
-        <Slogan>
+        {/* <Slogan>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
           quaerat.
-        </Slogan>
+        </Slogan> */}
       </CompanyContainer>
       <SocialIconsContainer>
-        <SocialIcons href="https://github.com/harrysaini29/">
+        <SocialIcons
+          href="https://github.com/harvinder-2908"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillGithub size="3rem"></AiFillGithub>
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com">
+        <SocialIcons
+          href="https://www.linkedin.com/in/harvinder-2908"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillLinkedin size="3rem"></AiFillLinkedin>
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com">
+        <SocialIcons
+          href="https://www.instagram.com/harry.2908i"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillInstagram size="3rem"></AiFillInstagram>
         </SocialIcons>
       </SocialIconsContainer>

@@ -32,8 +32,8 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
@@ -42,19 +42,36 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/harrysaini29/">
+      <SocialIcons
+        href="https://github.com/harvinder-2908"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillGithub size="3rem"></AiFillGithub>
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com">
+      <SocialIcons
+        href="https://www.linkedin.com/in/harvinder-2908"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillLinkedin size="3rem"></AiFillLinkedin>
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com">
+      <SocialIcons
+        href="https://www.instagram.com/harry.2908i"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillInstagram size="3rem"></AiFillInstagram>
       </SocialIcons>
     </Div3>
